@@ -17,4 +17,8 @@ FSM allows directional control: forward, back, left and right and state transiti
 Sensors detect obstacles and trigger transitions to **STOP** state, to halt movement, or **TURN** state, to avoid collision.
 
 ### Error Recovery
-FSM includes special reset or recovery states which helps to manage unexpected inputs, system faults or external noise. 
+FSM includes special reset or recovery states which helps to manage unexpected inputs, system faults or external noise.
+
+# Block Diagram
+
+![System-Block-Diagram](docs/Block-Diagram.png)
