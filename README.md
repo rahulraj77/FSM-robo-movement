@@ -66,3 +66,14 @@ FSM includes special reset or recovery states which helps to manage unexpected i
 - Testability: Modules can be independently tested and debugged, simplifying verification.
 
 - Scalability: Modular design allows easy extension and reuse in future projects.
+
+# Simulation Waveforms
+
+![Simulation_Output](sim/waveforms.png)
+
+- FSM correctly transitions between IDLE, movement, STOP, ERROR, and RECOVER states based on input commands.
+
+- Motor outputs match the expected state (e.g., only one movement output high, STOP on obstacle/error).
+
+Therefore, the simulated output matches with expected output.  
+Hence, simulated result is PASS ✅
